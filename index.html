@@ -1,0 +1,25 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Face Mask Detection</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Face Mask Detection</h1>
+    <video id="video" autoplay playsinline></video>
+    <div id="result" class="result-box">
+      <p>Status: <span id="status">Waiting...</span></p>
+      <p>Accuracy: <span id="accuracy">0%</span></p>
+    </div>
+    <br>
+    <button onclick="startDetection()">Start Detection</button>
+    <p>
+      <a href="https://github.com/vdt1873/face-mask-detection" target="_blank">🔗 GitHub Repository</a>
+    </p>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
