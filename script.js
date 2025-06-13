@@ -19,7 +19,7 @@ function startDetection() {
           const formData = new FormData();
           formData.append('image', blob, 'frame.jpg');
 
-          fetch('https://face-mask-detection-eu0v.onrender.com/detect', {
+          fetch('https://backend-facemaskdetection.onrender.com/detect', {
             method: 'POST',
             body: formData
           })
