@@ -1,6 +1,6 @@
 flask
 opencv-python
-tensorflow-cpu==2.10.0
+tensorflow==2.10.0
 keras
 numpy
 scikit-learn
